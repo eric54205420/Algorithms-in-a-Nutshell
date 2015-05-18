@@ -1,13 +1,13 @@
- #!/usr/bin/python
- # -*- coding: utf-8 -*-
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
 import random
 
 def insertSort(l):
     for i in xrange(len(l)):
         for j in xrange(i):
-            if l[i]<l[j]:
-                l.insert(j,l.pop(i))
+            if l[i] < l[j]:
+                l.insert(j, l.pop(i))
 
 if __name__ == "__main__":
     l = []
